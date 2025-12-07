@@ -12,6 +12,8 @@ public class Calculator {
         return a * b;
     }
     public int solver(){
-        return add(dif(2, 4), times(div(2, 4), 4));
+        //2x + 3 = 7 → x = 2
+        //x = (7-3)/2 → 2
+        return div(dif(7,3),2);
     }
 }
