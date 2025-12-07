@@ -11,7 +11,7 @@ public class Calculator {
     public int times(int a, int b){
         return a * b;
     }
-    public int solver(int a , int b){
-        return add(dif(a, b), times(div(a, b), b));
+    public int solver(){
+        return add(dif(2, 4), times(div(2, 4), 4));
     }
 }
